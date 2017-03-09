@@ -33,7 +33,24 @@
   "files": [
     "index.js"
   ],
-  "keywords": [],
+  "keywords": [
+    "callsites",
+    "clean",
+    "cleanup",
+    "help",
+    "internal",
+    "internals",
+    "natives",
+    "node",
+    "node-internals",
+    "regex",
+    "regexp",
+    "stack",
+    "stacktrace",
+    "traces",
+    "util",
+    "utils"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
