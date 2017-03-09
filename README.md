@@ -1,6 +1,6 @@
 # stack-utils-node-internals [![NPM version](https://img.shields.io/npm/v/stack-utils-node-internals.svg?style=flat)](https://www.npmjs.com/package/stack-utils-node-internals) [![mit license][license-img]][license-url] [![NPM monthly downloads](https://img.shields.io/npm/dm/stack-utils-node-internals.svg?style=flat)](https://npmjs.org/package/stack-utils-node-internals) [![npm total downloads][downloads-img]][downloads-url]
 
-> An array of regular expressions for node internals that can be cleaned up from stack traces
+> An array of node internals that can be cleaned up from stack traces
 
 [![code climate][codeclimate-img]][codeclimate-url] 
 [![code style][standard-img]][standard-url] 
@@ -10,7 +10,7 @@
 [![dependency status][david-img]][david-url]
 [![paypal donate][paypalme-img]][paypalme-url] 
 
-You might also be interested in [always-done](https://github.com/hybridables/always-done#readme).
+You might also be interested in [stack-utils](https://github.com/tapjs/stack-utils#readme).
 
 ## Table of Contents
 - [Install](#install)
@@ -151,7 +151,10 @@ console.log(natives)
 
 ## Related
 - [always-done](https://www.npmjs.com/package/always-done): Handle completion and errors with elegance! Support for streams, callbacks, promises, child processes, async/await and sync functions. A drop-in replacement… [more](https://github.com/hybridables/always-done#readme) | [homepage](https://github.com/hybridables/always-done#readme "Handle completion and errors with elegance! Support for streams, callbacks, promises, child processes, async/await and sync functions. A drop-in replacement for [async-done][] - pass 100% of its tests plus more")
+- [clean-stack](https://www.npmjs.com/package/clean-stack): Clean up error stack traces | [homepage](https://github.com/sindresorhus/clean-stack#readme "Clean up error stack traces")
+- [clean-stacktrace](https://www.npmjs.com/package/clean-stacktrace): Clean up error stack traces - just a fork of [clean-stack][]. Working on node.js v0.10 and above. | [homepage](https://github.com/tunnckocore/clean-stacktrace#readme "Clean up error stack traces - just a fork of [clean-stack][]. Working on node.js v0.10 and above.")
 - [minibase](https://www.npmjs.com/package/minibase): Minimalist alternative for Base. Build complex APIs with small units called plugins. Works well with most of the already existing… [more](https://github.com/node-minibase/minibase#readme) | [homepage](https://github.com/node-minibase/minibase#readme "Minimalist alternative for Base. Build complex APIs with small units called plugins. Works well with most of the already existing [base][] plugins.")
+- [stack-utils](https://www.npmjs.com/package/stack-utils): Captures and cleans stack traces | [homepage](https://github.com/tapjs/stack-utils#readme "Captures and cleans stack traces")
 - [try-catch-core](https://www.npmjs.com/package/try-catch-core): Low-level package to handle completion and errors of sync or asynchronous functions, using [once][] and [dezalgo][] libs. Useful for and… [more](https://github.com/hybridables/try-catch-core#readme) | [homepage](https://github.com/hybridables/try-catch-core#readme "Low-level package to handle completion and errors of sync or asynchronous functions, using [once][] and [dezalgo][] libs. Useful for and used in higher-level libs such as [always-done][] to handle completion of anything.")
 
 ## Contributing
@@ -237,3 +240,4 @@ _Project scaffolded using [charlike][] cli._
 [paypalme-url]: https://www.paypal.me/tunnckoCore
 [paypalme-img]: https://img.shields.io/badge/paypal-donate-brightgreen.svg
 
+[clean-stack]: https://github.com/sindresorhus/clean-stack

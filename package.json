@@ -1,7 +1,7 @@
 {
   "name": "stack-utils-node-internals",
   "version": "0.1.0",
-  "description": "An array of regular expressions for node internals that can be cleaned up from stack traces",
+  "description": "An array of node internals that can be cleaned up from stack traces",
   "repository": "tunnckoCore/stack-utils-node-internals",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
   "precommit.silent": true,
@@ -59,9 +59,12 @@
       "list": [
         "always-done",
         "minibase",
-        "try-catch-core"
+        "try-catch-core",
+        "stack-utils",
+        "clean-stack",
+        "clean-stacktrace"
       ],
-      "highlight": "always-done"
+      "highlight": "stack-utils"
     },
     "lint": {
       "reflinks": true
