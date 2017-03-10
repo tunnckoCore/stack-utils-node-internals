@@ -99,10 +99,6 @@
       "verb-generate-readme"
     ]
   },
-  "engines": {
-    "node": ">=4",
-    "npm": ">=2"
-  },
   "nyc": {
     "check-coverage": true,
     "statements": 100,

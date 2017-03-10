@@ -9,11 +9,11 @@
 
 'use strict'
 
-const test = require('mukla')
-const nodeInternals = require('./index')
+var test = require('mukla')
+var nodeInternals = require('./index')
 
-test('stack-utils-node-internals', (done) => {
-  const internals = nodeInternals()
+test('stack-utils-node-internals', function (done) {
+  var internals = nodeInternals()
   test.strictEqual(Array.isArray(internals), true)
   test.strictEqual(internals.length > 10, true)
   test.strictEqual(Array.isArray(nodeInternals.natives), true)
