@@ -1,6 +1,6 @@
 {
   "name": "stack-utils-node-internals",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An array of node internals that can be cleaned up from stack traces",
   "repository": "tunnckoCore/stack-utils-node-internals",
   "author": "Charlike Mike Reagent <@tunnckoCore> (https://i.am.charlike.online)",
